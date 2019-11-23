@@ -8,7 +8,7 @@ A front pode ser acessado através desse link [Tindev Front](https://github.com/
 
 ## Como usar ?
 
-Você pode clonar esse repositório e depois clonar o respositório do front.
+Você pode clonar esse repositório e depois clonar o respositório do front seguindo as instruções.
 
 Acesse o link abaixo que estará com todas as informações.
 
