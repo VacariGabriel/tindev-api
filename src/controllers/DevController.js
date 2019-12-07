@@ -8,6 +8,9 @@ module.exports = {
         
         const loggedDev = await Dev.findById(user);
 
+        if(user == null) 
+            res.json({ "message": "Usuário inválido" });
+
         const users = await Dev.find({
             $and: [
                 { _id: { $ne: user } }, // Não pega ele mesmo
