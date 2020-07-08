@@ -1,16 +1,28 @@
 # Tindev Api
-## Semana OmniStack - Rocketseat
-Uma semana voltada para aprender as tencologias Reactjs, React Native e Nodejs.
 
-## Sobre a API
-Esta API faz parte de um aplicação desenvolvida em React na Semana OmniStack da Rocketseat. 
-A front pode ser acessado através desse link [Tindev Front](https://github.com/VacariGabriel/tindev-front)
+![license](https://img.shields.io/github/license/vacarigabriel/tindev-api?color=blue)
 
-## Como usar ?
+## About
+This API is part of the project. [Tindev Front](https://github.com/VacariGabriel/tindev-front)
 
-Você pode clonar esse repositório e depois clonar o respositório do front seguindo as instruções.
+## Install project
 
-Acesse o link abaixo que estará com todas as informações.
+**Without Docker**
 
+`cd tindev-api/`
+
+`npm install`
+
+`npm start`
+
+**With Docker**
+
+`docker build -t tindev-api .`
+
+`docker run -p 3333:3333 tindev-api`
+
+## Front end project
 [Tindev Front](https://github.com/VacariGabriel/tindev-front)
 
+## License
+[MIT License](./LICENSE.md) © [Gabriel Vacari](https://github.com/VacariGabriel)
